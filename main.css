@@ -1,5 +1,7 @@
 html{
     background-color: #222327;
+    font-family: 'Tajawal', sans-serif;
+
 
 }
 body{
@@ -9,7 +11,7 @@ body{
    /* overflow: hidden; */
 }
 h1,h3,ul,h2{
-  font-family: "Lalezar", system-ui;
+/*   font-family: "Lalezar", system-ui; */
 }
 h3{
     display: none;
