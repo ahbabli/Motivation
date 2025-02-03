@@ -1,0 +1,27 @@
+html{
+    background-color: #222327;
+
+}
+body{
+
+    background-color: #222327;
+   
+   /* overflow: hidden; */
+}
+h1,h3,ul,h2{
+  font-family: "Lalezar", system-ui;
+}
+h3{
+    display: none;
+}
+.section{
+    /* display: none; */
+}
+.vid{
+    display: none;
+}
+.sPage,.btnSpage{
+    display: none;
+    
+
+}   
