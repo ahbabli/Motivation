@@ -86,10 +86,10 @@ location.reload();
 btnSaveImage.addEventListener("click",()=>{
     let containerInjaz = document.querySelector(".sPage");
     
-    html2canvas(containerInjaz, { backgroundColor: null, scale: 3 }).then(canvas => {
+    html2canvas(containerInjaz, { backgroundColor: null, scale: 4 }).then(canvas => {
         const link = document.createElement('a');
-        link.href = canvas.toDataURL("image/png",2.0);
-        link.download = "achievements.png";
+        link.href = canvas.toDataURL("image/jpg",4.0);
+        link.download = "achievements.jpg";
         link.click();
     });
 
