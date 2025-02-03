@@ -86,7 +86,7 @@ location.reload();
 btnSaveImage.addEventListener("click",()=>{
     let containerInjaz = document.querySelector(".sPage");
     
-   html2canvas(containerInjaz, { backgroundColor: '#222327', scale: 4 }).then(canvas => {
+   html2canvas(containerInjaz, { backgroundColor: '#222327', scale: 4 , letterRendering: true }).then(canvas => {
         const link = document.createElement('a');
         const imgData = canvas.toDataURL("image/jpeg", 4.0);
         link.href = imgData;
